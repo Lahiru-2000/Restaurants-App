@@ -1,0 +1,100 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(112, 90, 94, 0.13);
+    height: 100vh;
+    
+}
+
+.err {
+    color: rgb(255, 0, 0);
+}
+
+
+
+.all-login-inputs{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+
+
+
+@media(max-width:565px){
+    .login-form{
+        justify-content: center;
+        background-color: white;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding: 15px;
+        border-width: 1px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 50px;
+       
+        }
+      
+        .sign-in-button{
+            width: 275px;
+            height: 45px;
+            border-radius: 5px;
+            border-color: rgb(254, 93, 120);
+            background-color: rgb(254, 93, 120);
+            color: white;
+            border-width: 1px;
+            box-shadow: none;
+            font-weight: 400;
+        }
+        #outlined-required-log{
+            width: 245px;
+            border:  rgb(223, 223, 223) 1px ;
+        
+            &:valid,:focus{
+                border:  rgb(223, 223, 223) 1px ;
+                color:  rgb(113, 113, 113);
+                font-size: 18px;
+              
+            }
+        }
+}
+@media(min-width:566px){
+    .login-form{
+    align-items: center;
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 80px;
+    border-width: 1px;
+    border-radius: 20px;
+   
+    }
+    .sign-in-button{
+        width: 378px;
+        height: 45px;
+        border-radius: 5px;
+        border-color: rgb(254, 93, 120);
+        background-color: rgb(254, 93, 120);
+        color: white;
+        border-width: 1px;
+        box-shadow: none;
+        font-weight: 400;
+    }
+    #outlined-required-log{
+        width: 350px;
+        border:  rgb(223, 223, 223) 1px ;
+    
+        &:valid,:focus{
+            border:  rgb(223, 223, 223) 1px ;
+            color:  rgb(113, 113, 113);
+            font-size: 18px;
+          
+        }
+    }
+}

@@ -1,0 +1,106 @@
+.Register-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(112, 90, 94, 0.13);
+ 
+}
+.field-holder-register{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: -15px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.all-register-inputs{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+@media(max-width:954px){
+    .register-form{
+        justify-content: center;
+        background-color: white;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding: 13px;
+        border-width: 1px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 50px;
+        justify-content: center;
+       
+        }
+      
+        .sign-up-button{
+            width: 180px;
+            height: 45px;
+            border-radius: 5px;
+            border-color: rgb(254, 93, 120);
+            background-color: rgb(254, 93, 120);
+            color: white;
+            border-width: 1px;
+            box-shadow: none;
+            font-weight: 400;
+            justify-content: center;
+        }
+        #outlined-required{
+            width: 245px;
+            border:  rgb(223, 223, 223) 1px ;
+        
+            &:valid,:focused{
+                border:  rgb(223, 223, 223) 1px ;
+                color:  rgb(113, 113, 113);
+                font-size: 18px;
+              
+            }
+        }
+}
+@media(min-width:500px){
+    .register-form{
+    
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 80px;
+    border-width: 1px;
+    border-radius: 20px;
+   
+    }
+    .sign-up-button{
+        width: 180px;
+        height: 45px;
+        border-radius: 5px;
+        border-color: rgb(254, 93, 120);
+        background-color: rgb(254, 93, 120);
+        color: white;
+        border-width: 1px;
+        box-shadow: none;
+        font-weight: 400;
+    }
+    #outlined-required{
+        width: 350px;
+        border:  rgb(223, 223, 223) 1px ;
+    
+        &:valid,:focus{
+            border:  rgb(223, 223, 223) 1px ;
+            color:  rgb(113, 113, 113);
+            font-size: 18px;
+          
+        }
+    }
+}
