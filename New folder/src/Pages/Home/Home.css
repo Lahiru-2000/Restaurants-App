@@ -1,0 +1,153 @@
+
+.home-buttons-all{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.food-name{
+    font-size: 20px;
+}
+.food-item{
+    font-size: 18px;
+}
+
+
+
+.heart{
+    width: 25px;
+    height: 25px;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.heart_name{
+    display: flex;
+    margin-top: -20px;
+}
+.meal-name{
+    font-size: 20px;
+    font-weight: 500;
+}
+@media(min-width:880px){
+    .home-cards{
+        display: flex;
+        
+        gap: 58px;
+       
+        justify-content: center;
+    }
+    .card-image{
+        width: 300px;
+        height: 300px;
+        border-radius: 50px;
+        background-color: red;
+    }
+    .home-container{
+        padding: 0 12.5% 0 12.5%;
+        background-color: rgba(255, 192, 203, 0.167);
+    }
+    .home-buttons{
+        width: 150px;
+        padding: 13px 20px 13px 20px;
+        border-radius: 50px;
+        font-weight: 500;
+        font-size: 1.2rem;
+        background-color: rgba(255, 192, 203, 0.167);
+        border-color:  rgb(255, 107, 132);
+        border-width: 2px;
+        border-radius: 50px;
+        box-shadow: none;
+        color:  rgb(247, 89, 115);
+        
+        &:hover{
+            background-color: rgb(254, 93, 120);
+            color: white;
+        }
+       
+    }
+    .all-images-1{
+        display: flex;
+        gap: 58px;
+    }
+}
+
+
+
+@media(max-width:879px){
+    .home-cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+       
+        justify-content: center;
+    }
+    .card-image{
+        width: 300px;
+        height: 300px;
+        border-radius: 50px;
+        background-color: red;
+    }
+    .home-container{
+      justify-content: center;
+      align-items: center;
+        background-color: rgba(255, 192, 203, 0.167);
+    }
+    .home-buttons{
+        width: 120px;
+        padding: 13px 20px 13px 20px;
+        border-radius: 50px;
+        font-weight: 500;
+        font-size: 1.2rem;
+        background-color: rgba(255, 192, 203, 0.167);
+        border-color:  rgb(255, 107, 132);
+        border-width: 2px;
+        border-radius: 50px;
+        box-shadow: none;
+        color:  rgb(247, 89, 115);
+        
+        &:hover{
+            background-color: rgb(254, 93, 120);
+            color: white;
+        }
+       
+    }
+    .all-images-1{
+        display: flex;
+        gap: 58px;
+        justify-content: center;
+        align-items: center;
+    }
+   
+}
+
+
+
+@media(max-width:319px){
+    .home-cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+  
+        justify-content: center;
+    }
+    .card-image{
+        width: 100%;
+        height: 100%;
+        border-radius: 50px;
+        background-color: red;
+    }
+    .home-container{
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 192, 203, 0.167);
+    }
+    .all-images-1{
+        display: flex;
+        gap: 58px;
+        justify-content: center;
+        align-items: center;
+    }
+}
